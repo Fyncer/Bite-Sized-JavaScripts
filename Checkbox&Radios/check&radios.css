@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body, #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 25px 0;
+    font-size: 50pt;
+}
+
+.radios, #check {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px 0 0;
+}
+
+label {
+    vertical-align: middle;
+    position: relative;
+    top: -20px;
+    font-size: 25pt;
+}
+
+#checkLabel {
+    font-size: 25pt; 
+}
+
+#display {
+    background-color: black;
+}
+
+#result {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 20px 0;
+    color: white;
+}
+
+#click {
+    width: 275px;
+    height: 275px;
+    margin: 50px;
+    border-radius: 50%;
+    background-color: #D84040;
+    border: 0;
+    box-shadow: 0 15px #8E1616;
+    color: white;
+    font-family: "Shrikhand", serif;
+    font-size: 30pt;
+}
+
+#click:hover {
+    background-color: #C70039;
+    transition: .5s;
+}
+
+#click:active {
+    background-color: #ff0059;
+    transform: translateY(15px);
+    box-shadow: 0 5px #690f0f;
+    transition: 0.3s;
+}

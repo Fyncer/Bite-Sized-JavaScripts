@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Trainer</title>
+    <link rel="stylesheet" href="aimtrainer.css">
+</head>
+<body>
+    <div id="stats">
+        <div style="margin: 0 30px;">
+            <p class="statlabel">Hits: </p>
+            <h1 id="score">0</h1>
+        </div>
+        <div style="margin: 0 30px;">
+            <p class="statlabel">Accuracy Rate: </p>
+            <h1 id="accuracy">0.00%</h1>
+        </div>
+        <div id="timer">
+            <p class="statlabel">Time: </p>
+            <div id="timedisplay">
+                <input id="mins" type="text" value="01">
+                <p style="font-size: 15pt; margin: 0; color: white;">:</p>
+                <input id="secs" type="text" value="00">
+            </div>
+        </div>
+    </div>
+    <div id="range">
+        <button id="target"></button>
+    </div>
+    <script src="aimtrainer.js"></script>
+</body>
+</html>

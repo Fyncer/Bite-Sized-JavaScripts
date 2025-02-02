@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    margin: 0 0 10px 0;
+}
+
+#container {
+    width: 300px;
+    padding: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12pt;
+    margin: 0;
+}
+
+legend {
+    visibility: hidden;
+    border: 1px solid black;
+}
+
+fieldset {
+    display: contents;
+    padding: 0;
+    border: 0 solid black;
+}
+
+#resetbtn {
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+
+::placeholder {
+    color: var(--c, gray);
+}

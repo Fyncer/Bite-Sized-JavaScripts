@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#superContainer {
+    display: inline-flex;
+    text-align: center;
+}
+
+#container {
+    margin: 0 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 150px;
+}
+
+p {
+    margin: 0;
+    width: 80%;
+    margin: 0 10px;
+    font-family: "Manrope", serif;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.displayUp {
+    text-align: left;
+}
+
+.displayDown {
+    text-align: left;
+    transform: rotateY(180deg) rotateX(180deg);
+}
+
+.displayMain {
+    font-family: "Yarndings 20", serif;
+    font-size: 50pt;
+    font-weight: 600;
+}
+
+#roll {
+    margin: 20px;
+}

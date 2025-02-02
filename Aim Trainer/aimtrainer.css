@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#range {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;   
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: right;
+    padding: 10px 20px;
+}
+
+#stats > h1 {
+    margin: 0 20px;
+}
+
+.statlabel {
+    margin: 10px 0;
+}
+
+
+#score, #accuracy {
+    font-size: 20pt;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+#target {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#timedisplay {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#mins, #secs {
+    background: transparent;
+    width: 30px;
+    font-size: 15pt;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    color: white;
+}
